@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.date-of-birth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 35%;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+input, h3{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+h3{
+    text-align: center;
+}
+#out_age{
+    
+    color: yellow;
+}
